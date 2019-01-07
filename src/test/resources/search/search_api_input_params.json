@@ -1,0 +1,83 @@
+[
+  {
+  "param": "q",
+  "type": "String",
+  "description": "Free text search terms to compare to all indexed metadata",
+  "val": "apollo 2011",
+  "required": 0
+  }, {
+    "param": "center",
+    "type": "String",
+    "description": "NASA center which published the media.",
+    "val": "SSC",
+    "required": 0
+  }, {
+    "param": "description",
+    "type": "String",
+    "description": "Terms to search for in “Description” fields.",
+    "val": "moon landing",
+    "required": 0
+  }, {
+    "param": "description_508",
+    "type": "String",
+    "description": "Terms to search for in “508 Description” fields.",
+    "val": "description",
+    "required": 0
+  }, {
+    "param": "keywords",
+    "type": "String",
+    "description": "Terms to search for in “Keywords” fields. Separate multiple values with commas.",
+    "val": "Moon tree,INFINITY",
+    "required": 0
+  }, {
+    "param": "location",
+    "type": "String",
+    "description": "Terms to search for in “Location” fields.",
+    "val": "Houston",
+    "required": 0
+  }, {
+    "param": "media_type",
+    "type": "String",
+    "description": "Media types to restrict the search to. Available types: [“image”, “audio”]. Separate multiple values with commas.",
+    "val": "image,video",
+    "required": 0
+  }, {
+    "param": "nasa_id",
+    "type": "String",
+    "description": "The media asset’s NASA ID.",
+    "val": "SSC-20110203-S00095",
+    "required": 0
+  }, {
+    "param": "photographer",
+    "type": "String",
+    "description": "The primary photographer’s name.",
+    "val": "John",
+    "required": 0
+  }, {
+    "param": "title",
+    "type": "String",
+    "description": "Terms to search for in “Title” fields.",
+    "val": "Moon tree ceremony",
+    "required": 0
+  }, {
+    "param": "secondary_creator",
+    "type": "String",
+    "description": "A secondary photographer/videographer’s name.",
+    "val": "John",
+    "required": 0
+  }, {
+    "param": "year_start",
+    "type": "String",
+    "description": "The start year for results. ",
+    "format": "YYYY",
+    "val": "2010",
+    "required": 0
+  }, {
+    "param": "year_end",
+    "type": "String",
+    "description": "The end year for results.",
+    "format": "YYYY",
+    "val": "2012",
+    "required": 0
+  }
+]

@@ -1,0 +1,19 @@
+#
+*.class
+
+# Package Files #
+*.war
+*.ear
+.idea/*
+lib/.idea/*
+!.idea/codeStyles
+*.iml
+target/*
+!target/*.jar
+build/
+local.properties
+
+
+
+
+

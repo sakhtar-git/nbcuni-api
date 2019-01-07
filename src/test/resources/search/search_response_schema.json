@@ -1,0 +1,82 @@
+{
+  "type": "object",
+  "required": ["collection"],
+  "properties": {
+    "collection": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "type": "string"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "links": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "rel": {
+                      "type": "string"
+                    },
+                    "href": {
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "data": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "nasa_id": {
+                      "type": "string"
+                    },
+                    "date_created": {
+                      "type": "string"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "keywords": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "media_type": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "center": {
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "href": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "metadata": {
+          "type": "object",
+          "properties": {
+            "total_hits": {
+              "type": "number"
+            }
+          }
+        },
+        "href": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
