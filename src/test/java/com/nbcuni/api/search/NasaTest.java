@@ -47,7 +47,7 @@ public class NasaTest extends TestBase {
     }
 
     /**
-     * verifyWithIncorrectURI - API is returning proper status codes for any unknown resources
+     * verifyWithIncorrectURI - API is returning proper status code 404 for any unknown resources
      */
     @Test
     public void verifyWithIncorrectURI() {
