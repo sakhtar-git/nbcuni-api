@@ -1,4 +1,4 @@
-# NBC QE Challenge
+# RestAssured API Test Automation
 
 Testing Craft Demonstration Challenge - developed in Java,RestAssured, TestNG, Maven
 
