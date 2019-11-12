@@ -4,6 +4,7 @@ Testing Craft Demonstration Challenge - developed in Java,RestAssured, TestNG, M
 
 ## Getting Started
 These instructions below will help you to set up the test automation to run on your local and verify the search API
+https://youtu.be/I06P8jaR8G0 
 
 ### Install
 * IDE - IntelliJ
